@@ -10,7 +10,7 @@ Create table salaryData(
 )
 
 -- import csv
-COPY salaryData FROM 'C:\Users\JAI\Desktop\data analyst journey\Ready for Resume\sql\salary_data\salary_Data.csv' CSV HEADER;
+COPY salaryData FROM 'sql\salary_data\salary_Data.csv' CSV HEADER;
 
 --check data 
 select * from salarydata
